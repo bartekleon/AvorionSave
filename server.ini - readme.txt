@@ -1,6 +1,6 @@
 [Game]
 Scenario=1                                      # Scenario of the server. Possible scenarios are currently: Creative (0), Normal (1). Changing this after the server has been running and players logged in can lead to broken saves.
-Seed=2ZYZW5OcSa                                 # Seed for the server. Changing this after the server has been running and players logged in can lead to broken saves.
+Seed=v6X5myUdUM                                 # Seed for the server. Changing this after the server has been running and players logged in can lead to broken saves.
 Difficulty=0                                    # Difficulty from -3 (Beginner) to 3 (Insane).
 HardcoreEnabled=false                           # Used to check if the difficulty of a singleplayer game has been changed to Hardcore or above.
 InfiniteResources=false                         # Enable to give players infinite resources. This is automatically set to true when scenario 'Creative' is enabled.
