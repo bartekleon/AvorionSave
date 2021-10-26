@@ -1,6 +1,6 @@
 [Game]
 Scenario=1                                      # Scenario of the server. Possible scenarios are currently: Creative (0), Normal (1). Changing this after the server has been running and players logged in can lead to broken saves.
-Seed=g6eHak2hXz                                 # Seed for the server. Changing this after the server has been running and players logged in can lead to broken saves.
+Seed=N59uenWLn5                                 # Seed for the server. Changing this after the server has been running and players logged in can lead to broken saves.
 Difficulty=0                                    # Difficulty from -3 (Beginner) to 3 (Insane).
 HardcoreEnabled=false                           # Used to check if the difficulty of a singleplayer game has been changed to Hardcore or above.
 InfiniteResources=false                         # Enable to give players infinite resources. This is automatically set to true when scenario 'Creative' is enabled.
@@ -63,7 +63,7 @@ MaxTimeStep=1                                 # Maximum tick length in seconds. 
 saveInterval=600                              # Time in seconds. Whenever this much time has passed, the server starts an auto-save and writes all currently loaded data to disk. The saving process may take a few seconds.
 sectorUpdateTimeLimit=300                     # Default time in seconds that a sector is kept in memory before it's unloaded. A sector is only unloaded when: 1. no player or player content is in it or 2. when it's not connected via gate or wormhole to another sector containing a player. Exception: Newly loaded sectors without players are always kept in memory for at least 15 seconds.
 emptySectorUpdateInterval=0.5                 # Time in seconds between updates of sectors without players in them.
-workerThreads=9                               # Number of threads that are used for updating the main game simulation. This should never exceed the amount of virtual cores available.
+workerThreads=6                               # Number of threads that are used for updating the main game simulation. This should never exceed the amount of virtual cores available.
 generatorThreads=2                            # Number of threads that will load sectors from disk and generate new sectors while players are exploring. Loading/generating a sector usually takes a few seconds. Recommended number is usually 2, but it is encouraged to increase the number if loading (ie. jump route calculation times) are getting very high.
 scriptBackgroundThreads=2                     # Number of threads that will be doing asynchronous tasks for script code.
 aliveSectorsPerPlayer=5                       # Number of sectors beyond a player's current location that are kept in memory. Also applies to alliances while members are logged in.

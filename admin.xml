@@ -59,6 +59,7 @@
 		</authorizationGroups>
 		<administrators>
 			<admin name="admin" id="76561198087913489"/>
+			<admin name="admin" id="76561198253374852"/>
 		</administrators>
 	</administration>
 </Administration>
